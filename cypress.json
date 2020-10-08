@@ -1,1 +1,18 @@
-{}
+{
+  "$schema": "https://on.cypress.io/cypress.schema.json",
+  "defaultCommandTimeout": 30000,
+  "pageLoadTimeout": 10000,
+  "ignoreTestFiles": "*.js",
+  "watchForFileChanges": false,
+  "fixturesFolder": "e2e/cypress/fixtures",
+  "integrationFolder": "e2e/cypress/integration",
+  "pluginsFile": "e2e/cypress/plugins/index.js",
+  "supportFile": "e2e/cypress/support/index.js",
+  "screenshotOnRunFailure": true,
+  "screenshotsFolder": "e2e/cypress/report/screenshots",
+  "video": true,
+  "videoUploadOnPasses": false,
+  "videosFolder": "e2e/cypress/report/videos",
+  "viewportHeight": 1200,
+  "viewportWidth": 1920
+}
