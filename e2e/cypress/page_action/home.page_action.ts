@@ -4,10 +4,8 @@ import { clickElement } from '../support/commands/util';
 export class HomePageAction {
 
   /** Verification actions */
-  static verifyNavigationToW3C() {
-    cy.fixture('example').then((data) => {
-      cy.title().should('eq', data.title);
-    });
+  static verifyNavigationToW3C(title: string) {
+      cy.title().should('eq', title);
   }
 
   /* Click actions */

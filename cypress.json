@@ -1,9 +1,9 @@
 {
   "$schema": "https://on.cypress.io/cypress.schema.json",
   "defaultCommandTimeout": 30000,
-  "pageLoadTimeout": 10000,
+  "pageLoadTimeout": 100000,
   "ignoreTestFiles": "*.js",
-  "watchForFileChanges": false,
+  "watchForFileChanges": true,
   "fixturesFolder": "e2e/cypress/fixtures",
   "integrationFolder": "e2e/cypress/integration",
   "pluginsFile": "e2e/cypress/plugins/index.js",
